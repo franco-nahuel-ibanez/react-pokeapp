@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    background-image: radial-gradient(circle, rgba(38,68,196,1) 0%, rgba(61,69,187,1) 47%, rgba(21,8,113,1) 100%);
+    min-height: 100vh;
+}
+
+.contentDetail{
+    width: 500px;
+    background-image: radial-gradient(circle, rgba(56,189,175,1) 0%, rgba(36,125,157,1) 100%);
+    padding: 15px 15px 0px 15px;
+}
+
+.containImg{
+    display: flex;
+    justify-content: center;
+}
+
+img{
+    max-width: 300px;
+}
+
+.abilitiesCard{
+    border-radius: 10px 10px 0px 0px;
+    width: 100%;
+    background-color: antiquewhite;
+}
+
+/* barra de progreso */
+.progress{
+    width: 65%;
+    height: 12px;
+    margin: 0px auto;
+}
+
+.progress-bar{
+    background: rgb(62, 190, 62);
+}
+
+/* abilidades */
+.abilitiesItem{
+    display: flex;
+    justify-content: space-around;
+}
+
+span{
+    position: relative;
+    top: -10px
+}
